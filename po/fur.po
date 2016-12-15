@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=cogl&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2016-10-19 21:42+0000\n"
-"PO-Revision-Date: 2016-12-12 22:58+0100\n"
+"PO-Revision-Date: 2016-12-15 20:45+0100\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <f.t.public@gmail.com>\n"
 "Language: fur\n"
@@ -158,19 +158,19 @@ msgstr "Visualize"
 
 #: cogl/cogl-debug-options.h:85
 msgid "Outline rectangles"
-msgstr ""
+msgstr "Retangui dal contor"
 
 #: cogl/cogl-debug-options.h:86
 msgid "Add wire outlines for all rectangular geometry"
-msgstr ""
+msgstr "Zonte contors dai fîi par dutis lis gjeometriis retangolârs"
 
 #: cogl/cogl-debug-options.h:90
 msgid "Show wireframes"
-msgstr ""
+msgstr "Mostre model scheletric (wireframes)"
 
 #: cogl/cogl-debug-options.h:91
 msgid "Add wire outlines for all geometry"
-msgstr ""
+msgstr "Zonte contors dai fîi par dutis lis gjeometriis"
 
 #: cogl/cogl-debug-options.h:93 cogl/cogl-debug-options.h:98
 #: cogl/cogl-debug-options.h:103 cogl/cogl-debug-options.h:108
@@ -181,63 +181,64 @@ msgstr ""
 #: cogl/cogl-debug-options.h:160 cogl/cogl-debug-options.h:180
 #: cogl/cogl-debug-options.h:185
 msgid "Root Cause"
-msgstr ""
+msgstr "Cause principâl"
 
 #: cogl/cogl-debug-options.h:95
 msgid "Disable Journal batching"
-msgstr ""
+msgstr "Disabilite il procès par lots tal diari"
 
 #: cogl/cogl-debug-options.h:96
 msgid "Disable batching of geometry in the Cogl Journal."
-msgstr ""
+msgstr "Disabilite il procès par lots de gjeometrie intal diari di Cogl."
 
 #: cogl/cogl-debug-options.h:100
 msgid "Disable GL Vertex Buffers"
-msgstr ""
+msgstr "Disabilite i Buffer Vertex GL"
 
 #: cogl/cogl-debug-options.h:101
 msgid "Disable use of OpenGL vertex buffer objects"
-msgstr ""
+msgstr "Disabilite l'ûs dai ogjets de memorie tampon vertex di OpenGL"
 
 #: cogl/cogl-debug-options.h:105
 msgid "Disable GL Pixel Buffers"
-msgstr ""
+msgstr "Disabiilte i Buffer Pixel GL"
 
 #: cogl/cogl-debug-options.h:106
 msgid "Disable use of OpenGL pixel buffer objects"
-msgstr ""
+msgstr "Disabilite l'ûs dai ogjets de memorie tampon pixel di OpenGL"
 
 #: cogl/cogl-debug-options.h:110
 msgid "Disable software rect transform"
-msgstr ""
+msgstr "Disabilite trasformazions retangolârs software"
 
 #: cogl/cogl-debug-options.h:111
 msgid "Use the GPU to transform rectangular geometry"
-msgstr ""
+msgstr "Dopre la GPU par trasformâ lis gjeometriis retangolârs"
 
 #: cogl/cogl-debug-options.h:113
 msgid "Cogl Specialist"
-msgstr ""
+msgstr "Specialist di Cogl"
 
 #: cogl/cogl-debug-options.h:115
 msgid "Dump atlas images"
-msgstr ""
+msgstr "Strucje imagjins atlas"
 
 #: cogl/cogl-debug-options.h:116
 msgid "Dump texture atlas changes to an image file"
-msgstr ""
+msgstr "Strucje modifichis de trame di atlas suntun file imagjin"
 
 #: cogl/cogl-debug-options.h:120
 msgid "Disable texture atlasing"
-msgstr ""
+msgstr "Disabilite i atlas des tramis"
 
 #: cogl/cogl-debug-options.h:121
 msgid "Disable use of texture atlasing"
-msgstr ""
+msgstr "Disabilite l'ûs dai atlas des tramis"
 
 #: cogl/cogl-debug-options.h:125
 msgid "Disable sharing the texture atlas between text and images"
 msgstr ""
+"Disabilite la condivision dai atlas des tramis tra il test e lis imagjins"
 
 #: cogl/cogl-debug-options.h:126
 msgid ""
@@ -247,47 +248,47 @@ msgstr ""
 
 #: cogl/cogl-debug-options.h:131
 msgid "Disable texturing"
-msgstr ""
+msgstr "Disabilite lis tramis"
 
 #: cogl/cogl-debug-options.h:132
 msgid "Disable texturing any primitives"
-msgstr ""
+msgstr "Disabilite lis tramis su lis primitivis"
 
 #: cogl/cogl-debug-options.h:136
 msgid "Disable arbfp"
-msgstr ""
+msgstr "Disabilite arbfp"
 
 #: cogl/cogl-debug-options.h:137
 msgid "Disable use of ARB fragment programs"
-msgstr ""
+msgstr "Disabilite l'ûs dai programs di frament ARB"
 
 #: cogl/cogl-debug-options.h:141
 msgid "Disable fixed"
-msgstr ""
+msgstr "Disabilite funzion fisse"
 
 #: cogl/cogl-debug-options.h:142
 msgid "Disable use of the fixed function pipeline backend"
-msgstr ""
+msgstr "Disabilite l'ûs dal «backend» de pipeline de funzion fisse"
 
 #: cogl/cogl-debug-options.h:146
 msgid "Disable GLSL"
-msgstr ""
+msgstr "Disabilite GLSL"
 
 #: cogl/cogl-debug-options.h:147
 msgid "Disable use of GLSL"
-msgstr ""
+msgstr "Disabilite l'ûs di GLSL"
 
 #: cogl/cogl-debug-options.h:151
 msgid "Disable blending"
-msgstr ""
+msgstr "Disabilite blending"
 
 #: cogl/cogl-debug-options.h:152
 msgid "Disable use of blending"
-msgstr ""
+msgstr "Disabilite l'ûs de misture"
 
 #: cogl/cogl-debug-options.h:156
 msgid "Disable non-power-of-two textures"
-msgstr ""
+msgstr "Disabilite lis tramis che no son potencis di doi"
 
 #: cogl/cogl-debug-options.h:157
 msgid ""
@@ -297,11 +298,12 @@ msgstr ""
 
 #: cogl/cogl-debug-options.h:162
 msgid "Disable software clipping"
-msgstr ""
+msgstr "Disabilite il cjonçâ software"
 
 #: cogl/cogl-debug-options.h:163
 msgid "Disables Cogl's attempts to clip some rectangles in software."
 msgstr ""
+"Disabilite i tentatîfs di Cogl di cjonçâ cualchi retangul vie software."
 
 #: cogl/cogl-debug-options.h:167
 msgid "Show source"
