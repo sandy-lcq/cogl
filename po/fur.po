@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=cogl&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2016-10-19 21:42+0000\n"
-"PO-Revision-Date: 2016-12-15 20:45+0100\n"
+"PO-Revision-Date: 2016-12-15 23:14+0100\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <f.t.public@gmail.com>\n"
 "Language: fur\n"
@@ -70,7 +70,7 @@ msgstr "Mostre lis opzions di Cogl"
 #: cogl/cogl-debug-options.h:175 cogl/cogl-debug-options.h:191
 #: cogl/cogl-debug-options.h:196
 msgid "Cogl Tracing"
-msgstr ""
+msgstr "Il seguî la piste di Cogl"
 
 #: cogl/cogl-debug-options.h:34
 msgid "CoglObject references"
@@ -245,6 +245,9 @@ msgid ""
 "When this is set the glyph cache will always use a separate texture for its "
 "atlas. Otherwise it will try to share the atlas with images."
 msgstr ""
+"Cuant che chest al è metût la cache glyph e doprarà simpri une trame "
+"separade pai siei atlas. Se no al cirarà di condividi il atlas cun lis "
+"imagjins."
 
 #: cogl/cogl-debug-options.h:131
 msgid "Disable texturing"
@@ -295,6 +298,8 @@ msgid ""
 "Makes Cogl think that the GL driver doesn't support NPOT textures so that it "
 "will create sliced textures or textures with waste instead."
 msgstr ""
+"Fâs che Cogl al pensi che il driver GL nol supuarti lis tramis NPOT cussì "
+"che al crei tramis a fetis o tramis cun residuis."
 
 #: cogl/cogl-debug-options.h:162
 msgid "Disable software clipping"
@@ -307,57 +312,60 @@ msgstr ""
 
 #: cogl/cogl-debug-options.h:167
 msgid "Show source"
-msgstr ""
+msgstr "Mostre sorzint"
 
 #: cogl/cogl-debug-options.h:168
 msgid "Show generated ARBfp/GLSL source code"
-msgstr ""
+msgstr "Mostre il codiç sorzint ARBfp/GLSL gjenerât"
 
 #: cogl/cogl-debug-options.h:172
 msgid "Trace some OpenGL"
-msgstr ""
+msgstr "Seguìs piste di cualchi OpenGL"
 
 #: cogl/cogl-debug-options.h:173
 msgid "Traces some select OpenGL calls"
-msgstr ""
+msgstr "Seguìs piste di cualchi clamade OpenGL selezionade"
 
 #: cogl/cogl-debug-options.h:177
 msgid "Trace offscreen support"
-msgstr ""
+msgstr "Seguìs piste supuart fûr schermi"
 
 #: cogl/cogl-debug-options.h:178
 msgid "Debug offscreen support"
-msgstr ""
+msgstr "Fâs il debug dal supuart fûr schermi"
 
 #: cogl/cogl-debug-options.h:182
 msgid "Disable program caches"
-msgstr ""
+msgstr "Disabilite lis cache dai programs"
 
 #: cogl/cogl-debug-options.h:183
 msgid "Disable fallback caches for arbfp and glsl programs"
-msgstr ""
+msgstr "Disabilite lis cache di rapeç pai programs arbfp e glsl"
 
 #: cogl/cogl-debug-options.h:187
 msgid "Disable read pixel optimization"
-msgstr ""
+msgstr "Disabilite otimizazion leture pixel"
 
 #: cogl/cogl-debug-options.h:188
 msgid ""
 "Disable optimization for reading 1px for simple scenes of opaque rectangles"
 msgstr ""
+"Disabilite la otimizazion de leture di 1px par senis semplicis di retangui "
+"opacs"
 
 #: cogl/cogl-debug-options.h:193
 msgid "Trace clipping"
-msgstr ""
+msgstr "Seguìs piste dal cjonçâ"
 
 #: cogl/cogl-debug-options.h:194
 msgid "Logs information about how Cogl is implementing clipping"
 msgstr ""
+"Regjistre informazions su ce mût che Cogl al sta implementant il cjonçâ"
 
 #: cogl/cogl-debug-options.h:198
 msgid "Trace performance concerns"
-msgstr ""
+msgstr "Seguìs piste par problemis di rindiment"
 
 #: cogl/cogl-debug-options.h:199
 msgid "Tries to highlight sub-optimal Cogl usage."
-msgstr ""
+msgstr "Al cîr di evidenziâ l'ûs no otimâl di Cogl."
