@@ -9,34 +9,31 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=cogl&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2017-04-27 15:54+0000\n"
-"PO-Revision-Date: 2017-08-21 13:10+0545\n"
+"PO-Revision-Date: 2017-10-13 06:29+0545\n"
 "Language-Team: Nepali Translation Team <chautari@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.0.4\n"
 "Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: ne\n"
 
 #: cogl/cogl-debug.c:181
-#, fuzzy
 msgid "Supported debug values:"
-msgstr "समर्थित छैन "
+msgstr "समर्थित डिबग मानहरू:"
 
 #: cogl/cogl-debug.c:186
-#, fuzzy
 msgid "Special debug values:"
-msgstr "त्रुटि सच्याउनुहोस्"
+msgstr "विशेष डिबग मानहरू:"
 
 #: cogl/cogl-debug.c:188 cogl/cogl-debug.c:190
 msgid "Enables all non-behavioural debug options"
 msgstr "सबै गैर-व्यवहार डिबग विकल्पहरू सक्षम गर्दछ"
 
 #: cogl/cogl-debug.c:197
-#, fuzzy
 msgid "Additional environment variables:"
-msgstr "लिपि (Scripts) र कामका(jobs) लागि धेरै थरि को बाताबरण"
+msgstr "अतिरिक्त वातावरण चरः"
 
 #: cogl/cogl-debug.c:198
 msgid "Comma-separated list of GL extensions to pretend are disabled"
@@ -47,24 +44,20 @@ msgid "Override the GL version that Cogl will assume the driver supports"
 msgstr "GL संस्करण अधिलेखन गर्नुहोस् जुन कोगलले ड्राइभर समर्थन गर्दछ"
 
 #: cogl/cogl-debug.c:244
-#, fuzzy
 msgid "Cogl debugging flags to set"
-msgstr "सेट गरिने GTK + त्रुटि सच्याउने झण्डाहरू"
+msgstr "सेट गर्न कोगल डिबगिङ्ग झण्डाहरू"
 
 #: cogl/cogl-debug.c:246
-#, fuzzy
 msgid "Cogl debugging flags to unset"
-msgstr "सेट हटाइने GTK + त्रुटि सच्याउने झण्डाहरू"
+msgstr "सेट हटाइने कोगल डिबगिङ्ग झण्डाहरू"
 
 #: cogl/cogl-debug.c:295
-#, fuzzy
 msgid "Cogl Options"
-msgstr "Cogl बनावट"
+msgstr "कोगल विकल्पहरू"
 
 #: cogl/cogl-debug.c:296
-#, fuzzy
 msgid "Show Cogl options"
-msgstr "परीक्षण विकल्पहरू देखाउनुहोस्"
+msgstr "कोगल विकल्पहरू देखाउनुहोस्"
 
 #: cogl/cogl-debug-options.h:32 cogl/cogl-debug-options.h:37
 #: cogl/cogl-debug-options.h:42 cogl/cogl-debug-options.h:47
@@ -79,9 +72,8 @@ msgid "Cogl Tracing"
 msgstr "अनुरेखण गर्दा त्रुटि भेटियो"
 
 #: cogl/cogl-debug-options.h:34
-#, fuzzy
 msgid "CoglObject references"
-msgstr "सन्दर्भहरू:"
+msgstr "कोगल वस्तु सन्दर्भहरू"
 
 #: cogl/cogl-debug-options.h:35
 msgid "Debug ref counting issues for CoglObjects"
@@ -99,7 +91,7 @@ msgstr ""
 #: cogl/cogl-debug-options.h:44
 #, fuzzy
 msgid "Trace Atlas Textures"
-msgstr "कठिन सिनुसोडिएल बनावट उत्पन्न गर्नुहोस्"
+msgstr "YUV बनावट समर्थित छैनन्"
 
 #: cogl/cogl-debug-options.h:45
 msgid "Debug texture atlas management"
@@ -171,14 +163,12 @@ msgid "Trace the Cogl texture pixmap backend"
 msgstr "कोगल बनावट पिक्समैप ब्याकइन्ड ट्रेस गर्नुहोस्"
 
 #: cogl/cogl-debug-options.h:83 cogl/cogl-debug-options.h:88
-#, fuzzy
 msgid "Visualize"
-msgstr "बाटो दृष्टिकरण गर्नुहोस्"
+msgstr "दृष्टिकरण"
 
 #: cogl/cogl-debug-options.h:85
-#, fuzzy
 msgid "Outline rectangles"
-msgstr "आयातहरू"
+msgstr "रूपरेखा आयतहरू"
 
 #: cogl/cogl-debug-options.h:86
 msgid "Add wire outlines for all rectangular geometry"
@@ -201,14 +191,12 @@ msgstr "सबै ज्यामितिका लागि तार रू�
 #: cogl/cogl-debug-options.h:149 cogl/cogl-debug-options.h:154
 #: cogl/cogl-debug-options.h:160 cogl/cogl-debug-options.h:180
 #: cogl/cogl-debug-options.h:185
-#, fuzzy
 msgid "Root Cause"
-msgstr "(मूल)"
+msgstr "मूल कारण"
 
 #: cogl/cogl-debug-options.h:95
-#, fuzzy
 msgid "Disable Journal batching"
-msgstr "कोगल जर्नलमा ज्यामितिको ब्याच अक्षम गर्नुहोस्।"
+msgstr "जर्नलमा ब्याच अक्षम गर्नुहोस्।"
 
 #: cogl/cogl-debug-options.h:96
 msgid "Disable batching of geometry in the Cogl Journal."
@@ -240,23 +228,20 @@ msgid "Use the GPU to transform rectangular geometry"
 msgstr ""
 
 #: cogl/cogl-debug-options.h:113
-#, fuzzy
 msgid "Cogl Specialist"
-msgstr "Cogl पदार्थ"
+msgstr "कोगल विशेषज्ञ"
 
 #: cogl/cogl-debug-options.h:115
-#, fuzzy
 msgid "Dump atlas images"
-msgstr "तस्विरहरू"
+msgstr "एटलस छविहरू डम्प गर्नुहोस्"
 
 #: cogl/cogl-debug-options.h:116
 msgid "Dump texture atlas changes to an image file"
 msgstr ""
 
 #: cogl/cogl-debug-options.h:120
-#, fuzzy
 msgid "Disable texture atlasing"
-msgstr "बनावट:"
+msgstr "मानचित्र बनावट असक्षम पार्नुहोस्"
 
 #: cogl/cogl-debug-options.h:121
 msgid "Disable use of texture atlasing"
@@ -273,14 +258,12 @@ msgid ""
 msgstr ""
 
 #: cogl/cogl-debug-options.h:131
-#, fuzzy
 msgid "Disable texturing"
-msgstr "बन्द​:"
+msgstr "बनावट असक्षम गर्नुहोस्"
 
 #: cogl/cogl-debug-options.h:132
-#, fuzzy
 msgid "Disable texturing any primitives"
-msgstr "कुनै पनि प्लगइनहरूको लोड गर्न अक्षम पार्नुहोस् ।"
+msgstr "कुनै पनि पुरानो बनावट असक्षम पार्नुहोस्"
 
 #: cogl/cogl-debug-options.h:136
 #, fuzzy
@@ -292,9 +275,8 @@ msgid "Disable use of ARB fragment programs"
 msgstr ""
 
 #: cogl/cogl-debug-options.h:141
-#, fuzzy
 msgid "Disable fixed"
-msgstr "असक्षम पार्नुहोस्"
+msgstr "स्थिर असक्षम गर्नुहोस्"
 
 #: cogl/cogl-debug-options.h:142
 msgid "Disable use of the fixed function pipeline backend"
@@ -311,14 +293,12 @@ msgid "Disable use of GLSL"
 msgstr "बन्द​:"
 
 #: cogl/cogl-debug-options.h:151
-#, fuzzy
 msgid "Disable blending"
-msgstr "मिश्रण गर्दै"
+msgstr "मिश्रण गर्ने असक्षम गर्नुहोस्"
 
 #: cogl/cogl-debug-options.h:152
-#, fuzzy
 msgid "Disable use of blending"
-msgstr "मिश्रण गर्दै"
+msgstr "मिश्रणको प्रयोग असक्षम गर्नुहोस्"
 
 #: cogl/cogl-debug-options.h:156
 msgid "Disable non-power-of-two textures"
@@ -331,18 +311,16 @@ msgid ""
 msgstr ""
 
 #: cogl/cogl-debug-options.h:162
-#, fuzzy
 msgid "Disable software clipping"
-msgstr "क्लिप गर्दैछ:"
+msgstr "सफ्टवेयर क्लिपिङ असक्षम गर्नुहोस्"
 
 #: cogl/cogl-debug-options.h:163
 msgid "Disables Cogl's attempts to clip some rectangles in software."
-msgstr ""
+msgstr "सफ्टवेयरमा केहि आयतहरू क्लिप गर्न कोगलको प्रयास असक्षम गरिएको"
 
 #: cogl/cogl-debug-options.h:167
-#, fuzzy
 msgid "Show source"
-msgstr "स्रोत रेकर्डहरू देखाउनुहोस्"
+msgstr "स्रोत देखाउनुहोस्"
 
 #: cogl/cogl-debug-options.h:168
 msgid "Show generated ARBfp/GLSL source code"
@@ -368,9 +346,8 @@ msgid "Debug offscreen support"
 msgstr "समर्थन गर्नुहोस्"
 
 #: cogl/cogl-debug-options.h:182
-#, fuzzy
 msgid "Disable program caches"
-msgstr "कार्यक्रम"
+msgstr "कार्यक्रम क्यासहरू असक्षम पार्नुहोस्"
 
 #: cogl/cogl-debug-options.h:183
 msgid "Disable fallback caches for arbfp and glsl programs"
@@ -392,7 +369,7 @@ msgstr "क्लिप गर्दैछ:"
 
 #: cogl/cogl-debug-options.h:194
 msgid "Logs information about how Cogl is implementing clipping"
-msgstr ""
+msgstr "कोगलले कसरी क्लिपिङ्ग कार्यान्वयन गर्दैछ भन्ने जानकारी लगाउँछ"
 
 #: cogl/cogl-debug-options.h:198
 #, fuzzy
@@ -401,4 +378,4 @@ msgstr "पदचिन्ह ट्रयाप"
 
 #: cogl/cogl-debug-options.h:199
 msgid "Tries to highlight sub-optimal Cogl usage."
-msgstr ""
+msgstr "उप-इष्टतम कोगल प्रयोगलाई हाइलाइट गर्न प्रयास गर्दछ।"
