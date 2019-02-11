@@ -475,7 +475,7 @@ COGL_BEGIN_DECLS
  *
  * Since: 1.0
  */
-CoglFixed
+COGL_API CoglFixed
 cogl_fixed_sin (CoglFixed angle);
 
 /**
@@ -488,7 +488,7 @@ cogl_fixed_sin (CoglFixed angle);
  *
  * Since: 1.0
  */
-CoglFixed
+COGL_API CoglFixed
 cogl_fixed_tan (CoglFixed angle);
 
 /**
@@ -501,6 +501,7 @@ cogl_fixed_tan (CoglFixed angle);
  *
  * Since: 1.0
  */
+COGL_API
 CoglFixed cogl_fixed_cos (CoglFixed angle);
 
 /**
@@ -513,7 +514,7 @@ CoglFixed cogl_fixed_cos (CoglFixed angle);
  *
  * Since: 1.0
  */
-CoglFixed
+COGL_API CoglFixed
 cogl_fixed_atan (CoglFixed a);
 
 /**
@@ -529,7 +530,7 @@ cogl_fixed_atan (CoglFixed a);
  *
  * Since: 1.0
  */
-CoglFixed
+COGL_API CoglFixed
 cogl_fixed_atan2 (CoglFixed a,
                   CoglFixed b);
 
@@ -601,7 +602,7 @@ cogl_fixed_mul_div (CoglFixed a,
  *
  * Since: 1.0
  */
-CoglFixed
+COGL_API CoglFixed
 cogl_fixed_sqrt (CoglFixed x);
 
 /**
@@ -617,7 +618,7 @@ cogl_fixed_sqrt (CoglFixed x);
  *
  * Since: 1.0
  */
-CoglFixed
+COGL_API CoglFixed
 cogl_fixed_log2 (unsigned int x);
 
 /**
@@ -633,7 +634,7 @@ cogl_fixed_log2 (unsigned int x);
  *
  * Since: 1.0
  */
-unsigned int
+COGL_API unsigned int
 cogl_fixed_pow2 (CoglFixed x);
 
 /**
@@ -647,7 +648,7 @@ cogl_fixed_pow2 (CoglFixed x);
  *
  * Since: 1.0
  */
-unsigned int
+COGL_API unsigned int
 cogl_fixed_pow  (unsigned int x,
                  CoglFixed y);
 
@@ -667,7 +668,7 @@ cogl_fixed_pow  (unsigned int x,
  *
  * Since: 1.0
  */
-int
+COGL_API int
 cogl_sqrti (int x);
 
 /**
@@ -721,7 +722,7 @@ cogl_sqrti (int x);
  *
  * Since: 1.0
  */
-CoglFixed
+COGL_API CoglFixed
 cogl_angle_sin (CoglAngle angle);
 
 /**
@@ -734,7 +735,7 @@ cogl_angle_sin (CoglAngle angle);
  *
  * Since: 1.0
  */
-CoglFixed
+COGL_API CoglFixed
 cogl_angle_tan (CoglAngle angle);
 
 /**
@@ -747,7 +748,7 @@ cogl_angle_tan (CoglAngle angle);
  *
  * Since: 1.0
  */
-CoglFixed
+COGL_API CoglFixed
 cogl_angle_cos (CoglAngle angle);
 
 /*< private >*/
@@ -797,13 +798,13 @@ cogl_fixed_mul_div (CoglFixed a,
 }
 #endif
 
-CoglFixed
+COGL_API CoglFixed
 cogl_double_to_fixed (double value);
 
-int
+COGL_API int
 cogl_double_to_int   (double value);
 
-unsigned int
+COGL_API unsigned int
 cogl_double_to_uint (double value);
 
 COGL_END_DECLS
