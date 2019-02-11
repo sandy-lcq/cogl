@@ -7,14 +7,11 @@ DISTCLEANFILES =
 
 EXTRA_DIST =
 
-source_c = \
-	cogl-gst-video-sink.c \
-	$(NULL)
+include cogl-gst-srcs.mak
 
-source_h = \
-	cogl-gst.h \
-	cogl-gst-video-sink.h \
-	$(NULL)
+source_c = $(COGL_GST_SRCS)
+
+source_h = $(COGL_GST_PUB_HDRS)
 
 lib_LTLIBRARIES = libcogl-gst.la
 
@@ -41,9 +38,7 @@ AM_CPPFLAGS = \
 cogl_gstheadersdir = $(includedir)/cogl/cogl-gst
 cogl_gstheaders_HEADERS = $(source_h)
 
-plugin_source_c = \
-	cogl-gst-plugin.c \
-	$(NULL)
+plugin_source_c = $(COGL_GST_PLUGIN_SRCS)
 
 libgstcogl_la_SOURCES =	\
 	$(plugin_source_c)      \
