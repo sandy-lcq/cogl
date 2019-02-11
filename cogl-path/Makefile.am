@@ -9,41 +9,9 @@ DISTCLEANFILES =
 
 EXTRA_DIST =
 
-# tesselator sources
-cogl_tesselator_sources = \
-	tesselator/dict-list.h 	\
-	tesselator/dict.c 		\
-	tesselator/dict.h 		\
-	tesselator/geom.c 		\
-	tesselator/geom.h 		\
-	tesselator/gluos.h 		\
-	tesselator/memalloc.h 	\
-	tesselator/mesh.c 		\
-	tesselator/mesh.h 		\
-	tesselator/normal.c 		\
-	tesselator/normal.h 		\
-	tesselator/priorityq-heap.h 	\
-	tesselator/priorityq-sort.h 	\
-	tesselator/priorityq.c 	\
-	tesselator/priorityq.h 	\
-	tesselator/render.c 		\
-	tesselator/render.h 		\
-	tesselator/sweep.c 		\
-	tesselator/sweep.h 		\
-	tesselator/tess.c 		\
-	tesselator/tess.h 		\
-	tesselator/tesselator.h 	\
-	tesselator/tessmono.c 	\
-	tesselator/tessmono.h 	\
-	tesselator/GL/glu.h 		\
-	$(NULL)
+include cogl-path-srcs.mak
 
-source_c = \
-	$(cogl_tesselator_sources) \
-	cogl-path-private.h \
-	cogl1-path.c \
-	cogl-path.c \
-	$(NULL)
+source_c = $(COGL_PATH_SRCS)
 
 EXTRA_DIST += \
 	tesselator/README 		\
@@ -51,21 +19,14 @@ EXTRA_DIST += \
 	cogl-path.symbols		\
 	$(NULL)
 
-source_1_x_h = \
-	cogl-path-types.h \
-	cogl1-path-functions.h \
-	$(NULL)
+source_1_x_h = $(COGL_PATH_1_x_HDRS)
 
-source_h = \
-	cogl-path.h \
-	$(source_1_x_h) \
-	cogl2-path-functions.h \
-	$(NULL)
+source_h = $(COGL_PATH_HDRS)
 
 if USE_GLIB
 # glib-mkenums rules
-glib_enum_h = cogl-path-enum-types.h
-glib_enum_c = cogl-path-enum-types.c
+glib_enum_h = $(COGL_PATH_ENUMS_HDRS)
+glib_enum_c = $(COGL_PATH_ENUMS_SRCS)
 glib_enum_headers = $(source_1_x_h)
 include $(top_srcdir)/build/autotools/Makefile.am.enums
 endif
