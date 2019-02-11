@@ -1476,9 +1476,7 @@ Makefile
 README
 config.h.win32
 build/Makefile
-build/win32/Makefile
-build/win32/vs9/Makefile
-build/win32/vs10/Makefile
+build/nmake/Makefile
 deps/Makefile
 deps/glib/Makefile
 deps/gmodule/Makefile
