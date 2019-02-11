@@ -16,7 +16,6 @@ source_c = $(COGL_PATH_SRCS)
 EXTRA_DIST += \
 	tesselator/README 		\
 	tesselator/priorityq-heap.c	\
-	cogl-path.symbols		\
 	$(NULL)
 
 source_1_x_h = $(COGL_PATH_1_x_HDRS)
