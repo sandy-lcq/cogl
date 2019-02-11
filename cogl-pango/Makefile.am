@@ -7,22 +7,13 @@ DISTCLEANFILES =
 
 EXTRA_DIST =
 
-source_c = \
-	cogl-pango-display-list.c   \
-	cogl-pango-fontmap.c        \
-	cogl-pango-render.c         \
-	cogl-pango-glyph-cache.c    \
-	cogl-pango-pipeline-cache.c \
-	$(NULL)
+include cogl-pango-srcs.mak
 
-source_h = cogl-pango.h
+source_c = $(COGL_PANGO_SRCS)
 
-source_h_priv = \
-	cogl-pango-display-list.h   \
-	cogl-pango-private.h        \
-	cogl-pango-glyph-cache.h    \
-	cogl-pango-pipeline-cache.h \
-	$(NULL)
+source_h = $(COGL_PANGO_PUB_HDRS)
+
+source_h_priv = $(COGL_PANGO_PRIV_HDRS)
 
 lib_LTLIBRARIES = libcogl-pango.la
 
